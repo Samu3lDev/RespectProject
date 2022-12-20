@@ -1,4 +1,4 @@
-setInterval(screenSize, 10);
+//setInterval(screenSize, 10);
 
 function screenSize(){
     var p = document.getElementById('demo');
@@ -8,3 +8,9 @@ function screenSize(){
 }
 
 
+var about = document.getElementById("link");
+about.addEventListener("click", redirectAboutLink);
+
+function redirectAboutLink(){
+    window.location.href = "page2.html";
+}
